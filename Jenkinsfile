@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "amit9166/jenkins-demo-app"
+        IMAGE_NAME = "amit916631/jenkins-demo-app"
         IMAGE_TAG = "latest"
     }
 
