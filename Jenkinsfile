@@ -42,6 +42,9 @@ pipeline {
     }
 
     post {
+        always {
+            echo 'Pipeline Completed'
+        }
         success {
             echo 'Docker Image Pushed Successfully'
         }
