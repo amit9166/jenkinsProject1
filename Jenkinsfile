@@ -8,9 +8,9 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
+        stage('Checkout') {
             steps {
-                git url: 'https://github.com/amit9166/jenkinsProject1.git', branch: 'main'
+                checkout scm
             }
         }
 
